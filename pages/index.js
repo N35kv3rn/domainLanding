@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import { Inter } from '@next/font/google'
 import styles from '../styles/Home.module.css'
-import mypic from '../public/IMG_1779.PNG'
+import mypic from '../public/cark.png'
 
 const inter = Inter({ subsets: ['latin'] })
 
