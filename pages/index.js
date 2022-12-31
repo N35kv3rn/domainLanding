@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import { Inter } from '@next/font/google'
 import styles from '../styles/Home.module.css'
+import mypic from '../public/IMG_1779.png'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -16,7 +17,13 @@ export default function Home() {
       </Head>
       <main>
         <h1>Website under construction</h1>
-        <p>marcus neskvern</p>
+        <p>Min inspirasjon:</p>
+        <Image
+          alt="cark"
+          src={mypic}
+          height={350}
+          width={1500}
+        />
       </main>
     </>
   )
