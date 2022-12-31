@@ -22,7 +22,7 @@ export default function Home() {
           alt="cark"
           src={mypic}
           height={350}
-          width={1500}
+          width={350}
         />
       </main>
     </>
