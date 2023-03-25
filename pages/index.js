@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import { Inter } from '@next/font/google'
 import styles from '../styles/Home.module.css'
-import mypic from '../public/cark.png'
+import Header from '../components/Header'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -16,14 +16,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <h1>Website under construction</h1>
-        <p>Min inspirasjon:</p>
-        <Image
-          alt="cark"
-          src={mypic}
-          height={350}
-          width={350}
-        />
+        <Header text="Marcus Neskvern"/>
       </main>
     </>
   )
